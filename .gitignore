@@ -1,0 +1,26 @@
+# virtual environment
+.venv/
+venv/
+env/
+
+# ide files
+.idea/
+.vscode/
+*.iml
+
+# python cache
+__pycache__/
+*.py[cod]
+
+# os files
+.DS_Store
+Thumbs.db
+
+# processed datasets
+data/spam_cleaned.csv
+data/spam_processed.csv
+
+# model files
+data/model.pkl
+data/vectorizer.pkl
+*.pkl
